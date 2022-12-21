@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+/* Aqui comienza 
+la parte del logo */
+
+header {
+    box-sizing:border-box;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: black;
+    height: 60px;
+    font-size: 0.875rem;
+    display:flex;
+    align-items: center;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.33);
+}
+
+.logo {
+    margin: 1rem;
+    color: #FFC91A;
+}
+
+/* Aqui comienza la
+parte de los botones */
+
+
+.sec1 {
+    height: 30rem;
+    background-color: #FFC91A;
+}
+
+.container {
+    text-align: center;
+}
+
+div.item {
+    display: inline-block;
+    background-color: black;
+    border-radius: 10px;
+    color: #FFC91A;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 1.1rem;
+    text-rendering: auto;
+    line-height: 1;
+    padding: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 15%;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.33);
+
+}
+
+div.item:hover {
+    cursor: pointer;
+}
+
+/* Aqui comienza la parte de 
+los chords y los key */
+
+.sec2 {
+    background-color: black;
+    height: 30rem;
+}
+
+.chords {
+    font-size: 1.1rem;
+    width: 25%;
+    margin-top: 2%;
+    margin-left:  30%;
+    background-color: whitesmoke;
+    padding: 5rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: solid 1px #FFC91A;
+    
+}
+
+#r {
+    font-size: 12rem;
+    color: #fff;
+    background-color: #FFC91A;
+    padding: 5%;
+}
