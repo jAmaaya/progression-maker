@@ -31,9 +31,9 @@ let botonSeptimas = () => {
     
 }
 
-setTimeout(() => {
-    return document.getElementById('r').innerHTML = 'Te amo amor bello'
-}, 2000);
+//setTimeout(() => {
+//    return document.getElementById('r').innerHTML = 'Te amo amor bello'
+//}, 2000);
 
 
 
